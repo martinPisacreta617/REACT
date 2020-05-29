@@ -11,7 +11,7 @@ const ACTIONS_TYPES = {
   }
 
 
-// Action creatorses 
+// Action creators
     //lo logico seria crear un archivo de action creators para tareas y otro archivo de action creators para usuario
     //payload -> no es obligatorio , es una forma de estructura el action , atributos necesarios para la accion ... todo action tiene un type y puede tener atributos extras
     const addTodo = (description) => {
